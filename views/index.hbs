@@ -1,0 +1,26 @@
+<div class="container col-md-6 mt-3">
+  <button class="btn btn-primary" onclick="return alert('hello world');">Hello</button>
+  <button class="btn btn-danger" onclick="return confirm('Are you sure to delete')">Delete</button>
+<h1>{{country}}</h1>
+<h1>{{year}}</h1>
+<h1>{{grade}}</h1>
+<h1>{{pass}}</h1>
+<h1>{{gender}}</h1>
+
+<ol>
+  {{#each sports}}
+    <li style="font-size: 25px;">{{this}}</li>
+  {{/each}}
+</ol>
+
+<table class="table table-dark" style="font-size: 25px;">
+    <tr>
+        <th>Sports</th>
+    </tr>
+    {{#each sports}}
+    <tr>
+        <td>{{this}}</td>
+    </tr>
+    {{/each}}
+</table>
+</div>

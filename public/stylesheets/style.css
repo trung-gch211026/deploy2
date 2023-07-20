@@ -1,0 +1,14 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: rgb(154, 160, 178);
+}
+
+a {
+  color: #00B7FF;
+}
+h1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: blueviolet;
+  background-color: rgb(162, 230, 230);
+}
