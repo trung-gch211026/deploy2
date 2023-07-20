@@ -9,7 +9,10 @@ router.get('/hn', (req, res)=>{
 })
 
 router.get('/hcm', (req, res)=>{
-    res.render('hcm')
+    var hcm = "Ho Chi Minh"
+    var address = "Ho Chi Minh city"
+    var image = "https://vcdn-vnexpress.vnecdn.net/2022/06/03/Image-249300564-ExtractWord-0-8746-7982-1654231437.pnghttps://greenwich.edu.vn/wp-content/uploads/2021/04/00023.jpg"
+    res.render('hcm', {hcm:hcm, diachi:address, img:image})
 })
 
 module.exports = router;
